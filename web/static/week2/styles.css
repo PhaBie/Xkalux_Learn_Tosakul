@@ -1,0 +1,31 @@
+.interest-form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.interest-form .field{
+  flex: 1 1 12rem;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.interest-form button {
+  min-height: 2.75rem;
+}
+
+#catalog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid blue;
+  outline-offset: 3px;
+}
